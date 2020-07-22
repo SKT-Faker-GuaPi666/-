@@ -1,0 +1,16 @@
+#include<iostream>
+//1.单行注释；
+//2.多行注释；
+using namespace std;//
+int main()
+/*
+    main是一个程序的入口
+	每个程序都必须有这个函数
+	有且仅有一个
+	同一项目中的不同项的main要做一区分；
+       */
+{
+	//第14行代码的含义是实现在屏幕中输出Holle World;
+	cout << "Holle World" << endl;
+	return 0;
+}
