@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+//1.#define宏常量；语法：#define 常量名 常量值(无“;”)
+//2.const修饰；语法：const 变量；
+
+//1.#define宏常量：
+#define Faker的s赛冠军数 3
+int main()
+{   
+	cout << "Faker现在有" << Faker的s赛冠军数 <<"个s赛冠军分别是S3、S5、S6"<< endl;
+	//2.const修饰：
+	const int Faker的lck冠军数 = 9;
+	cout << "Faker从2013年到现在一共有" << Faker的lck冠军数 << "个lck冠军" << endl;
+	system("pause");
+	return 0;
+}
