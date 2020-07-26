@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//转义字符；
+	
+	//换行符  \n  
+	
+	cout << "Holle World\n"; 
+	//由于c语言中没有endl换行字符所以一般在c语言中用“\n”换行；
+	
+	//反斜杠  \\
+
+	cout << "\\" << endl;
+
+	//水平制表符 \t  作用可以整齐的输出数据；
+	cout << "lbw\tnb" << endl;
+	cout << "lbw zjb\tnb" << endl;
+	cout << "lbwztmd\tnb" << endl;
+	//水平制表符的原理是“\t”使得该字符连同左边所有字符占有的字节数总数为8；
+    //而只显示“\t”左边的字符，剩余的空间用空格代替，达到使得后面的字符对其的目的；
+	//若左边字符总数达到8个以及8个以上，则字符“\t”的会再次划分八个字节以满足使用；
+
+
+	system("pause");
+	return 0;
+}
