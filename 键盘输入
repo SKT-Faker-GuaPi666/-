@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//1.整型；
+	int num = 10;
+	cout << "请给整型变量num赋值" << endl;
+	cin >> num;
+	cout << "整型变量num=" << num << endl;
+
+	//2.浮点型；
+	float f = 3.14f;
+	cout << "请给浮点型变量f赋值" << endl;
+	cin >> f;
+	cout << "浮点型变量f=" << f << endl;
+
+	//3.字符型；
+	char ch = 'n';
+	cout << "请给字符型变量ch赋值" << endl;
+	cin >> ch;
+	cout << "字符型变量ch=" << ch << endl;
+
+	//4.字符串型；
+	string 战队 = "未知";
+	cout << "请问英雄联盟历史上获得全球总决赛冠军次数最多的是那个战队" << endl;
+	cin >> 战队;
+	cout << "正确答案是" << 战队 << "\t迄今为止SKT一共获得了3届s赛冠军" << endl;
+	//5.布尔类型；
+	bool flag = false;
+	cout << "请给布尔类型flag赋值" << endl;
+	cin >> flag;//bool类型，只要是非0的值都代表真；
+	cout << "布尔类型flag=" << flag << endl;
+
+
+	system("pause");
+	return 0;
+}
