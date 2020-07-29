@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//逻辑非 !
+	int a = 10;
+	cout << !a << endl;
+	//c++中，除了0 都为真
+	cout << !!a << endl;
+	bool b = true;
+	bool c = false;
+	cout << !b << endl;
+	cout << !c << endl;
+	//逻辑与 &&
+	cout << (a && b) << endl;
+	cout << (a && c) << endl;
+	cout << (b && !c) << endl;
+	cout << (!a && c) << endl;
+	//逻辑或 ||
+	cout << (a||c) << endl;
+	cout << (a || !b) << endl;
+	cout << (!a || c) << endl;
+
+	system("pause");
+	return 0;
+}
